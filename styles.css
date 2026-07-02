@@ -1,35 +1,25 @@
-```css
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
+    background-color: white;
 }
-
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
-
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 25px;
 }
-
 
 .nav-links a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
 }
-```
